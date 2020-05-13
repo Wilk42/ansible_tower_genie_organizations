@@ -8,11 +8,12 @@ Currently:
   awx.awx
 ## Variables
 |Variable Name|Default Value|Required|Description|Example|
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 |`tower_url`|""|yes|URL to the Ansible Tower Server.|127.0.0.1|
-|`tower_verify_ssl`|False|no|Whether or not to validate the Ansible Tower Server's SSL certificate.|
-|`tower_oauthtoken`|""|yes|Tower Admin User's token on the Ansible Tower Server.  This should be stored in an Ansible Vault at or elsewhere and called from a parent playbook.|
-|`organizations`|"see below"|yes|Data structure describing your orgainzation or orgainzations Described below.|
+|`tower_verify_ssl`|False|no|Whether or not to validate the Ansible Tower Server's SSL certificate.||
+|`tower_oauthtoken`|""|yes|Tower Admin User's token on the Ansible Tower Server.  This should be stored in an Ansible Vault at or elsewhere and called from a parent playbook.||
+|`organizations`|"see below"|yes|Data structure describing your orgainzation or orgainzations Described below.||
+
 ### Secure Logging Variables
 The following Variables compliment each other. 
 If Both variables are not set, secure logging defaults to false. 
