@@ -111,4 +111,4 @@ organizations:
 [MIT](LICENSE)
 
 ## Author
-[Andrew J. Huffman](https://github.com/ahuffman)
+[Sean Sullivan](https://github.com/Wilk42)
